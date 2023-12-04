@@ -1,0 +1,131 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3981116597" file="D:\traitement d'image\app traitement d'image\Safi_oussama_matlab_app.prj" location="D:\traitement d'image\app traitement d'image" name="Safi_oussama_matlab_app" target="target.mlapps" target-name="Package App">
+    <param.appname>Safi_oussama_matlab_app</param.appname>
+    <param.authnamewatermark>Oussama Safi</param.authnamewatermark>
+    <param.email>mr.oussamasafi@gmail.com</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\PC\AppData\Local\Temp\tp58bfcacd_21af_4f2e_9246_b3cc47c14d94.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>D:\traitement d'image</param.output>
+    <param.guid>8f9f2b79-8eac-425c-a69a-7913147ecf08</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\main_app.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\accueil.png</file>
+      <file>${PROJECT_ROOT}\Contour.m</file>
+      <file>${PROJECT_ROOT}\correction_gamma.m</file>
+      <file>${PROJECT_ROOT}\correction_gamma_icon.png</file>
+      <file>${PROJECT_ROOT}\Correction_gamma_RGB.m</file>
+      <file>${PROJECT_ROOT}\detection_icon.png</file>
+      <file>${PROJECT_ROOT}\Egalisation_histo_func.m</file>
+      <file>${PROJECT_ROOT}\Egalisation_icon.png</file>
+      <file>${PROJECT_ROOT}\Egalisation_RGB_RGB.m</file>
+      <file>${PROJECT_ROOT}\filter_icon.png</file>
+      <file>${PROJECT_ROOT}\filtre_d_ordre.m</file>
+      <file>${PROJECT_ROOT}\filtre_d_ordre_RGB.m</file>
+      <file>${PROJECT_ROOT}\filtre_mediane.m</file>
+      <file>${PROJECT_ROOT}\filtre_mediane_RGB.m</file>
+      <file>${PROJECT_ROOT}\filtre_moyonneur_RGB.m</file>
+      <file>${PROJECT_ROOT}\fstm.png</file>
+      <file>${PROJECT_ROOT}\func_convolutiongeneral.m</file>
+      <file>${PROJECT_ROOT}\Github.png</file>
+      <file>${PROJECT_ROOT}\histo_cumule.m</file>
+      <file>${PROJECT_ROOT}\histogram__image.m</file>
+      <file>${PROJECT_ROOT}\histogramme.png</file>
+      <file>${PROJECT_ROOT}\image (2).png</file>
+      <file>${PROJECT_ROOT}\import_image.png</file>
+      <file>${PROJECT_ROOT}\noise_icon.png</file>
+      <file>${PROJECT_ROOT}\pixels (1).png</file>
+      <file>${PROJECT_ROOT}\quitter.png</file>
+      <file>${PROJECT_ROOT}\requantification_gray.m</file>
+      <file>${PROJECT_ROOT}\requantification_RGB.m</file>
+      <file>${PROJECT_ROOT}\rgb2gray_icon.png</file>
+      <file>${PROJECT_ROOT}\rgb_to_gray.m</file>
+      <file>${PROJECT_ROOT}\save_image_icon.png</file>
+      <file>${PROJECT_ROOT}\volet_gris.png</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="D:\" name="traitement d'image" optional="false">D:\traitement d'image</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2023a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
